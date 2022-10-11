@@ -47,3 +47,25 @@ header a {
 .form {
   height: 400px;
 }
+
+.credits {
+  background-color: #3a546d;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+.fa-brands {
+  font-size: 35px;
+}
+
+footer span a {
+  color: greenyellow;
+}
+
+.copyright {
+  background-color: #2c3e50;
+  color: white;
+}
