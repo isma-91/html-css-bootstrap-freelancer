@@ -18,12 +18,12 @@ header a {
   height: 60px;
 }
 
-.header-section {
+.bootstrap {
   background-color: #1abc9c;
   color: white;
 }
 
-.header-section img {
+.bootstrap img {
   min-height: 0;
   max-height: 250px;
 }
@@ -37,4 +37,13 @@ header a {
 
 .portfolio .hr {
   background-color: black;
+}
+
+.btn {
+  color: white;
+  border: 1px solid white;
+}
+
+.form {
+  height: 400px;
 }
