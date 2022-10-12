@@ -13,12 +13,17 @@ a {
 .navbar {
   height: 60px;
 }
+
 .container-fluid {
   background-color: #2c3e50;
 }
 
 .navbar a {
   color: white;
+}
+
+.navbar a:hover {
+  color: #277cff;
 }
 
 .bootstrap {
@@ -35,6 +40,29 @@ a {
   border: none;
   border-radius: 1rem;
   overflow: hidden;
+  position: relative;
+}
+
+.opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(39, 255, 209, 0.7);
+  display: none;
+}
+
+.card:hover .opacity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fa-plus {
+  font-size: 70px;
+  color: white;
 }
 
 .fa-star {
